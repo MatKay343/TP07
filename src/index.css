@@ -1,0 +1,47 @@
+/* index.css */
+
+/* hecho por IA: aprendí que este archivo sirve para estilos globales,
+   como resetear márgenes y definir tipografía para toda la app */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa; /* color de fondo estilo Instagram */
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: #3897f0; /* azul estilo Instagram */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f80ed;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
