@@ -1,5 +1,5 @@
 import React from "react";
-import "./../styles/Post.css";
+import "./../styles/app.css";
 
 function Post({ post, onClick }) {
   // hecho por IA: aprendí que los props son como "pasar datos de un lado a otro".
